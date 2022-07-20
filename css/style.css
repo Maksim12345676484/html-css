@@ -1,6 +1,85 @@
-.header{
-    background-image: url(../img/piano__fon.jfif);
-    background-repeat: no-repeat;
-    min-width: 320px;
-    height: 100%;
+body {
+    font-family: 'montserrat', sans-serif;
+    background-color:#191919 ;
+}
+
+.header__nav {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    text-decoration-line: none;
+    color:#fff ;
+}
+
+.header__contact {
+    margin: 0;
+}
+
+
+
+.header__horisontal-bar{
+    color: #fff;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    position: relative;
+    top: 30px;
+}
+
+.header__horisontal-bar, .header__contact {
+    transition-duration: .7s;
+}
+
+.header__contact a:hover {
+    color:darkslategrey;
+}
+
+.header__horisontal-bar  a:hover {
+    color:darkslategrey;
+}
+
+.header__nav-logo {
+    display: flex;
+    justify-content: space-between;
+    font-size: 50px;
+    padding: 0;
+    font-family: 'Kaushan Script' , cursive;
+    color: #fff;
+    cursor: pointer;
+    margin: 0;
+}
+
+.header__img-piano { 
+    margin: 25px ; 
+    width: 400px;
+    height: 500px;
+    border-radius: 40px;
+}
+    
+
+.header__button {
+    padding: 15px 25px 15px 25px;
+    display: flex;
+    text-align: center;
+    position: relative;
+    bottom: 300px;
+    left: 100px;
+    color: #fff;
+    border: #191919;
+    background-color: #000 ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.header__button {
+    transition-duration: .5s;
+}
+
+.header__button:hover {
+    background-color: #fff;
+    color:#000;
+    border: #191919;
 }
